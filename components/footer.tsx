@@ -10,7 +10,18 @@ export default function Footer() {
     }
   }
 
-  const services = ["Weddings", "Corporate Events", "Celebrations", "Themed Events", "Entertainment", "Documentation"]
+  const services = [
+    "Photography",
+    "Decoration",
+    "Event Planning",
+    "Weddings & Destination Weddings",
+    "Birthdays",
+    "Engagements",
+    "Anniversaries",
+    "Corporate Events",
+    "Baby Showers",
+    "Haldi & Mehendi Ceremonies",
+  ]
 
   const quickLinks = [
     { name: "Home", id: "home" },
@@ -99,7 +110,7 @@ export default function Footer() {
         {/* Bottom Footer */}
         <div className="border-t border-yellow-500/20 pt-6 text-center">
           <p className="text-gray-400">
-            Website is Created and Managed by{" "}
+            Website is created and managed by{" "}
             <a
               href="https://techmeets.in/"
               target="_blank"
