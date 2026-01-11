@@ -134,6 +134,31 @@ export default function PortfolioSection() {
           </p>
         </div>
 
+        {/* New: Completed Projects / Stats Banner */}
+        <div className={`mb-10 transition-all duration-1000 ${isVisible ? "animate-luxury-fade-in-up" : "opacity-0"}`}>
+          <div className="bg-black/80 border border-yellow-500/40 rounded-lg p-6 max-w-5xl mx-auto">
+            <h3 className="text-center text-2xl md:text-3xl font-bold text-white mb-4">Successfully Completed 700+ Projects</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-2">
+              <div className="border-dashed border-2 border-yellow-500/60 rounded-lg p-4 text-center bg-white/3">
+                <div className="text-3xl font-extrabold text-yellow-400">150+</div>
+                <div className="text-sm text-white/90 mt-1">Corporate Clients</div>
+              </div>
+              <div className="border-dashed border-2 border-yellow-500/60 rounded-lg p-4 text-center bg-white/3">
+                <div className="text-3xl font-extrabold text-yellow-400">275+</div>
+                <div className="text-sm text-white/90 mt-1">Corporate Events</div>
+              </div>
+              <div className="border-dashed border-2 border-yellow-500/60 rounded-lg p-4 text-center bg-white/3">
+                <div className="text-3xl font-extrabold text-yellow-400">60+</div>
+                <div className="text-sm text-white/90 mt-1">Wedding Events</div>
+              </div>
+              <div className="border-dashed border-2 border-yellow-500/60 rounded-lg p-4 text-center bg-white/3">
+                <div className="text-3xl font-extrabold text-yellow-400">75+</div>
+                <div className="text-sm text-white/90 mt-1">R&amp;R Events</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="flex flex-wrap justify-center gap-3 mb-12">
           {["All", ...cloudinaryFolders.map((f) => f.label)].map((category) => (
             <button
