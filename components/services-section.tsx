@@ -51,7 +51,7 @@ const services = [
     title: "Anniversaries",
     image: "/images/aniversaries.jpg",
     description:
-      "Re-live your love story with romantic anniversary celebrations filled with magical moments, décor, and customized experiences.",
+      "Relive your love story with romantic anniversary celebrations filled with magical moments, décor, and customized experiences.",
   },
   {
     id: 8,
