@@ -36,11 +36,11 @@ export default function Navbar() {
   }
 
   const portfolioCategories = [
-    { name: "Vidhi", value: "Vidhi", icon: "🙏" },
-    { name: "Sangeet", value: "Sangeet", icon: "🎶" },
-    { name: "Haldi", value: "Haldi", icon: "🌼" },
-    { name: "Corporate", value: "Corporate", icon: "🏢" },
-    { name: "Birthday", value: "Birthday", icon: "🎂" },
+    { name: "Birthday", value: "Birthday", icon: "🙏" },
+    { name: "Corporate", value: "Corporate", icon: "🎶" },
+    { name: "Wedding", value: "Wedding", icon: "🌼" },
+    { name: "Babyshower", value: "Babyshower", icon: "🏢" },
+    { name: "Namingceremony", value: "Namingceremony", icon: "🎂" },
     { name: "Other", value: "Other", icon: "🧩" },
   ]
 
