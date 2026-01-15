@@ -51,7 +51,7 @@ export default function AboutSection() {
                 <div className="aspect-[4/5] overflow-hidden rounded-xl bg-gradient-to-br from-yellow-600/20 to-yellow-400/10 flex items-center justify-center">
                   {/* Director image from public/ directory */}
                   <img
-                    src="/director.jpeg"
+                    src="/director1.jpeg"
                     alt="Yash Bawaria — Founder & Creative Director"
                     className="w-full h-full object-cover"
                     loading="lazy"
