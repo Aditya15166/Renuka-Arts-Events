@@ -7,20 +7,20 @@ export interface CloudinaryResource {
 }
 
 export interface PortfolioData {
-  vidhi: CloudinaryResource[]
-  sangeet: CloudinaryResource[]
-  haldi: CloudinaryResource[]
-  corporate: CloudinaryResource[]
   birthday: CloudinaryResource[]
+  corporate: CloudinaryResource[]
+  wedding: CloudinaryResource[]
+  babyshower: CloudinaryResource[]
+  namingceremony: CloudinaryResource[]
   other: CloudinaryResource[]
 }
 
 export const cloudinaryFolders = [
-  { id: "vidhi", label: "Vidhi" },
-  { id: "sangeet", label: "Sangeet" },
-  { id: "haldi", label: "Haldi" },
-  { id: "corporate", label: "Corporate" },
   { id: "birthday", label: "Birthday" },
+  { id: "corporate", label: "Corporate" },
+  { id: "wedding", label: "Wedding" },
+  { id: "babyshower", label: "Baby Shower" },
+  { id: "namingceremony", label: "Naming Ceremony" },
   { id: "other", label: "Other" },
 ]
 
@@ -33,11 +33,11 @@ export async function fetchPortfolioData(): Promise<PortfolioData> {
     if (!response.ok) {
       console.error("[v0] Failed to fetch portfolio data")
       return {
-        vidhi: [],
-        sangeet: [],
-        haldi: [],
-        corporate: [],
         birthday: [],
+        corporate: [],
+        wedding: [],
+        babyshower: [],
+        namingceremony: [],
         other: [],
       }
     }
@@ -46,13 +46,13 @@ export async function fetchPortfolioData(): Promise<PortfolioData> {
   } catch (error) {
     console.error("[v0] Error fetching portfolio data:", error)
     return {
-        vidhi: [],
-        sangeet: [],
-        haldi: [],
-        corporate: [],
         birthday: [],
+        corporate: [],
+        wedding: [],
+        babyshower: [],
+        namingceremony: [],
         other: [],
-    }
+      }
   }
 }
 
