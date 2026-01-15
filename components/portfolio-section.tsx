@@ -8,11 +8,11 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react"
 import { useScrollAnimation } from "@/hooks/use-scroll-animation"
 
 interface PortfolioData {
-  vidhi: CloudinaryResource[]
-  sangeet: CloudinaryResource[]
-  haldi: CloudinaryResource[]
-  corporate: CloudinaryResource[]
   birthday: CloudinaryResource[]
+  corporate: CloudinaryResource[]
+  wedding: CloudinaryResource[]
+  babyshower: CloudinaryResource[]
+  namingceremony: CloudinaryResource[]
   other: CloudinaryResource[]
 }
 
@@ -31,21 +31,21 @@ export default function PortfolioSection() {
 
     if (activeCategory === "All") {
       return [
-        ...portfolioData.vidhi,
-        ...portfolioData.sangeet,
-        ...portfolioData.haldi,
-        ...portfolioData.corporate,
         ...portfolioData.birthday,
+        ...portfolioData.corporate,
+        ...portfolioData.wedding,
+        ...portfolioData.babyshower,
+        ...portfolioData.namingceremony,
         ...portfolioData.other,
       ].slice(0, 6)
     }
 
     const categoryMap: Record<string, keyof PortfolioData> = {
-      Vidhi: "vidhi",
-      Sangeet: "sangeet",
-      Haldi: "haldi",
-      Corporate: "corporate",
       Birthday: "birthday",
+      Corporate: "corporate",
+      Wedding: "wedding",
+      "Baby Shower": "babyshower",
+      "Naming Ceremony": "namingceremony",
       Other: "other",
     }
 
