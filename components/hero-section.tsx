@@ -9,7 +9,7 @@ export default function HeroSection() {
 
   const slides = [
     {
-      image: "/images/hero-slide-1-1.jpg",
+      image: "/images/hero-slide-1.jpg",
       text: "Luxury Wedding Elegance",
     },
     {
@@ -21,7 +21,7 @@ export default function HeroSection() {
       text: "Bohemian Celebration Art",
     },
     {
-      image: "/images/hero-slide-4-1.jpg",
+      image: "/images/hero-slide-4.jpg",
       text: "Floral Sophistication Magic",
     },
     {
@@ -101,13 +101,13 @@ export default function HeroSection() {
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
           <button
             onClick={() => scrollToSection("portfolio")}
-            className="w-full sm:w-auto bg-yellow-500 text-black hover:bg-yellow-400 px-8 py-4 text-base sm:text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl"
+            className="w-11/12 max-w-xs sm:w-auto bg-yellow-500 text-black hover:bg-yellow-400 px-8 py-4 text-base sm:text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl"
           >
             View Our Work
           </button>
           <button
             onClick={() => scrollToSection("contact")}
-            className="w-full sm:w-auto border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black px-8 py-4 text-base sm:text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105"
+            className="w-11/12 max-w-xs sm:w-auto border-2 border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black px-8 py-4 text-base sm:text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105"
           >
             Book a Consultation
           </button>
