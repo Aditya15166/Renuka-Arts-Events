@@ -9,7 +9,7 @@ export default function HeroSection() {
 
   const slides = [
     {
-      image: "/images/hero-slide-1.jpeg",
+      image: "/images/hero-slide-1-1.jpg",
       text: "Luxury Wedding Elegance",
     },
     {
@@ -21,7 +21,7 @@ export default function HeroSection() {
       text: "Bohemian Celebration Art",
     },
     {
-      image: "/images/hero-slide-4.jpeg",
+      image: "/images/hero-slide-4-1.jpg",
       text: "Floral Sophistication Magic",
     },
     {
