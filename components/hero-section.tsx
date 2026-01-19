@@ -77,7 +77,7 @@ export default function HeroSection() {
         />
       </div>
 
-      <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/40" />
 
       <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight text-balance">
