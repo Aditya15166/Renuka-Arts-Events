@@ -36,11 +36,11 @@ export default function HomePage() {
       <Navbar />
       <main>
         <HeroSection />
-        <ServicesSection />
         <PortfolioSection initialCategory={initialCategory} />
-        <ReviewsSection /> {/* Add the new Reviews Section here */}
-        <AboutSection />
         <ContactSection />
+        <ServicesSection />
+        <ReviewsSection />
+        <AboutSection />
       </main>
       <Footer />
     </div>
